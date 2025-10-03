@@ -7,6 +7,10 @@ An interactive React-based quiz application that generates random questions usin
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+
+Live Link:
+(here[from netlify](https://quiz-appv.netlify.app/))
+
 ## ✨ Features
 
 - 🤖 **AI-Powered Questions** - Generates dynamic questions using Gemini 2.0 Flash API
