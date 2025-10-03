@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+
+#root{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: black;
+}
+
+
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.Correct{
+    background: rgb(89, 131, 27);
+}
+
+.Wrong{
+    background: rgb(156, 25, 25);
+}
+
+
+
+
+
+@media (max-width : 920px) {
+    
+    
+    .welcome{
+        width: 90%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .welcome input{
+        font-size: 3vw;
+        padding: 10px 10px;
+    }
+    .cards div{
+        height: 15vw;
+        width: 25vw;
+    }
+}
+@media (max-width : 750px) {
+    
+    
+    .welcome{
+        width: 90%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .welcome input{
+        font-size: 3vw;
+        padding: 10px 10px;
+    }
+    .welcome h1{
+        font-size: 6vw;
+    }
+    .cards div{
+        height: 15vw;
+        width: 25vw;
+    }
+}
+
+
+
+
+@media (max-width :600px){
+    .welcome{
+        width: 100%;
+        height: 100%;
+        border-radius: 0%;
+        display: flex;
+        justify-content: start;
+        padding-top: 20%;
+        position: relative;
+        user-select: none;
+    }
+    .welcome p{
+        position: absolute;
+        bottom: 2vh;
+
+        
+    }
+    .welcome input{
+        font-size: 3vw;
+        padding: 10px 10px;
+    }
+    .cards{
+        grid-column: auto;
+        justify-content: center;
+
+
+        
+    }
+    .cards div{
+        height: 8vw;
+        width: 26vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1vw;
+        font-size: 3vw;
+    }
+    .quiz{
+        width: 100%;
+        height: 100%;
+        border-radius: 0%;
+        display: flex;
+        justify-content: start;
+        padding-top: 20%;
+        position: relative;
+        user-select: none;
+    }
+
+    .quiz li{
+        width: 100%;
+    }
+    .quiz h3{
+        font-size: 3vw;
+    }
+    .back{
+        font-size: 2.8vw;
+    }
+}
